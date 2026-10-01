@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Majer.Marton\\source\\repos\\recordlinq\\recordlinq\\recordlinq.csproj": {}
+    "C:\\Users\\Majer.Marton\\Desktop\\MateWhore\\recordlinq\\recordlinq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Majer.Marton\\source\\repos\\recordlinq\\recordlinq\\recordlinq.csproj": {
+    "C:\\Users\\Majer.Marton\\Desktop\\MateWhore\\recordlinq\\recordlinq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majer.Marton\\source\\repos\\recordlinq\\recordlinq\\recordlinq.csproj",
+        "projectUniqueName": "C:\\Users\\Majer.Marton\\Desktop\\MateWhore\\recordlinq\\recordlinq.csproj",
         "projectName": "recordlinq",
-        "projectPath": "C:\\Users\\Majer.Marton\\source\\repos\\recordlinq\\recordlinq\\recordlinq.csproj",
+        "projectPath": "C:\\Users\\Majer.Marton\\Desktop\\MateWhore\\recordlinq\\recordlinq.csproj",
         "packagesPath": "C:\\Users\\Majer.Marton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majer.Marton\\source\\repos\\recordlinq\\recordlinq\\obj\\",
+        "outputPath": "C:\\Users\\Majer.Marton\\Desktop\\MateWhore\\recordlinq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
