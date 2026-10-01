@@ -52,22 +52,18 @@
             List<string> InCity(string city) { return hotels.Where(x => x.City == city).Select(x => x.Name).ToList(); }
             InCity("Budapest").ForEach(x => Console.WriteLine(x));
             List<Laptop> laptops = new List<Laptop>()
-{
-    new Laptop("Lenovo", "ThinkPad E14", "Intel i5"){Memory = 16},
-    new Laptop("Apple", "MacBook Air M3", "Apple M3"){Memory = 16},
-    new Laptop("Asus", "ROG Strix G16", "Intel i7"){Memory = 32},
-    new Laptop("Acer", "Aspire 5", "AMD Ryzen 5"){Memory = 8},
-    new Laptop("HP", "ProBook 450", "Intel i5"){Memory = 16},
-    new Laptop("Dell", "Inspiron 15", "Intel i7"){Memory = 32},
-    new Laptop("Lenovo", "IdeaPad Slim 3", "AMD Ryzen 5"){Memory = 8},
-    new Laptop("Asus", "VivoBook 15", "Intel i5"){Memory = 16},
-    new Laptop("Apple", "MacBook Pro M3", "Apple M3 Pro"){Memory = 36},
-    new Laptop("Acer", "Nitro 5", "Intel i7"){Memory =32}
-
-
-
-
-};
+            {
+            new Laptop("Lenovo", "ThinkPad E14", "Intel i5"){Memory = 16},
+            new Laptop("Apple", "MacBook Air M3", "Apple M3"){Memory = 16},
+            new Laptop("Asus", "ROG Strix G16", "Intel i7"){Memory = 32},
+            new Laptop("Acer", "Aspire 5", "AMD Ryzen 5"){Memory = 8},
+            new Laptop("HP", "ProBook 450", "Intel i5"){Memory = 16},
+            new Laptop("Dell", "Inspiron 15", "Intel i7"){Memory = 32},
+            new Laptop("Lenovo", "IdeaPad Slim 3", "AMD Ryzen 5"){Memory = 8},
+            new Laptop("Asus", "VivoBook 15", "Intel i5"){Memory = 16},
+            new Laptop("Apple", "MacBook Pro M3", "Apple M3 Pro"){Memory = 36},
+            new Laptop("Acer", "Nitro 5", "Intel i7"){Memory =32}
+            };
             laptops[0].L(319000);
             laptops[1].L(489000);
             laptops[2].L(649000);
@@ -76,13 +72,13 @@
             laptops[5].L(399000);
             laptops[6].L(249000);
 
-            double AP()
+            double valami1()
             {
                 return laptops.Average(x => x.GetP());
             }
-            Console.WriteLine(AP());
+            Console.WriteLine(valami1());
 
-            laptops.Where(x => x.GetP() <= AP()).Select(x => x.GetP());
+            laptops.Where(x => x.GetP() <= valami1()).Select(x => x.GetP());
 
         }
 
