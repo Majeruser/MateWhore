@@ -10,7 +10,7 @@ namespace recordlinq
     {
         private int _stars { get; init; } = Stars;
         private int _pricePerNigth { get; set;  }
-        public double Ratimg { get; set; }
+        public double Rating { get; set; }
         public bool Is4star()
         {
             return _stars >= 4;
