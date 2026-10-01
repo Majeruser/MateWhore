@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("recordlinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+902d5510c8d11c1ef97aef5cdc77d97c6695366d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9b29991bf8e359d3afa58c320edf9291c3b4374")]
 [assembly: System.Reflection.AssemblyProductAttribute("recordlinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("recordlinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
